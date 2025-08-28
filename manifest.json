@@ -1,1 +1,16 @@
+{
+  "connectors": {},
+  "capabilities": [
+    "card-buttons",
+    "card-back-section"
+  ],
+  "author": "Gocob",
+  "icon": {
+    "url": "https://cdn-icons-png.flaticon.com/512/727/727245.png"
+  },
+  "url": "https://YOUR-HOSTED-SITE.com",
+  "js": [
+    "https://raw.githubusercontent.com/Gocob/trellosongplayer/main/powerup.js"
+  ]
+}
 
