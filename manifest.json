@@ -8,7 +8,7 @@
   "icon": {
     "url": "https://cdn-icons-png.flaticon.com/512/727/727245.png"
   },
-  "url": "https://YOUR-HOSTED-SITE.com",
+  "url": "https://github.com/Gocob/trellosongplayer",
   "js": [
     "https://raw.githubusercontent.com/Gocob/trellosongplayer/main/powerup.js"
   ]
