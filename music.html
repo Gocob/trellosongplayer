@@ -1,1 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+</head>
+<body style="margin:0; background:#111; display:flex; align-items:center; justify-content:center; height:100%;">
+  <p style="color:white;">Loading music 🎶...</p>
+
+  <script src="https://p.trellocdn.com/power-up.min.js"></script>
+  <script>
+    var t = window.TrelloPowerUp.iframe();
+
+    t.get("card", "shared", "musicUrl").then(function(url){
+      if(url){
+        let audio = document.createElement("audio");
+        audio.src = url;
+        audio.autoplay = true;
+        audio.loop = true;
+        audio.controls = true;
+        document.body.innerHTML = "";
+        document.body.appendChild(audio);
+      } else {
+        document.body.innerHTML = "<p style='color:white;'>No track set for this card.</p>";
+      }
+    });
+  </script>
+</body>
+</html>
 
